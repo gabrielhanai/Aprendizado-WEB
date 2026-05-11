@@ -1,0 +1,75 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#voltar{
+    background-color: white;
+    border: 5px solid greenyellow;
+    position: absolute;
+    width: 106px;
+    height: 45px;
+    right: 40px;
+    top: 20px;
+}
+.botoes{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: white;
+    border: 5px solid greenyellow;
+    position: absolute;
+}
+#add{
+    width: 70px;
+    height: 65px;
+    right: 575px;
+    top: 780px;
+    border: 10px solid greenyellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#titulo{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    border: 10px solid greenyellow;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lista{
+    border: 10px solid greenyellow;
+    top: 152px;
+    position: absolute;
+    margin-left: 567px;
+    width: 770px;
+    height: 620px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+#inputtarefa{
+    position: absolute;
+    top: 783px;
+    margin-left: 567px;
+    width: 610px;
+    height: 40px;
+    font-size: 20px;
+    border: 10px solid greenyellow;
+}
+#reset{
+    position: absolute;
+    top: 780px;
+    border: 10px solid greenyellow;
+    height: 65px;
+    width: 71px;
+    left: 1207px;
+}

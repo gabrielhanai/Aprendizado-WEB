@@ -1,0 +1,106 @@
+body{
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 50px 16px 24px;
+    transition: 0.3nas;
+}
+u{
+    text-decoration-color:greenyellow;
+}
+h2{
+    color: black;
+    text-decoration-color: greenyellow;
+    text-decoration-line: underline;
+}
+button{
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 5px 4px 2px rgb(100, 100, 100);
+}
+.headbuttons:hover{
+    transform: scale(1.1);
+}
+.texto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.titulos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30px;
+    font-size: 30px ;
+}
+#tituloprincipal{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+#claroescuro{
+    position: absolute;
+    padding: 10px 20px;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    border: 5px solid greenyellow;
+    cursor: pointer;
+}
+#menu{
+    position: absolute;
+    background-color: white;
+    border: 5px solid greenyellow;
+    padding: 10px 43px;
+    top: 20px;
+    right: 180px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    #tituloprincipal{
+        font-size: 36px;
+        margin-top: 24px;
+    }
+
+    .titulos{
+        font-size: 24px;
+    }
+
+    .texto{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #claroescuro{
+        top: 12px;
+        right: 12px;
+        padding: 8px 12px;
+        border-width: 3px;
+    }
+    #menu{
+        right: 130px;
+        top: 12px;
+        padding: 8px ;
+        border-width: 3px;
+    }
+}
+
+@media (max-width: 480px){
+    body{
+        padding: 40px 12px 20px;
+    }
+
+    #tituloprincipal{
+        font-size: 30px;
+    }
+
+    .titulos{
+        font-size: 21px;
+    }
+
+    .texto{
+        font-size: 16px;
+    }
+}

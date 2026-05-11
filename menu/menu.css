@@ -1,0 +1,61 @@
+#voltar {
+    padding: 10px 30px;
+    border: 5px solid greenyellow;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    background-color: white;
+    color: black;
+}
+#tema{
+    position: absolute;
+    right: 160px;
+    top: 20px;
+    height: 45px;
+    width: 110px;
+    background-color: white;
+    border: 5px solid greenyellow;
+}
+#tituloprincipal{
+    font-size: 48px;
+    top: 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-decoration-thickness: 8px;
+}
+.botoesmenu {
+    position: relative;
+    width: 540px;
+    height: 540px;
+    font-size: 50px;
+    border: 5px solid greenyellow;
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    margin-top: 20px;
+    margin-right: 20px;
+    left: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+button {
+    transition: 0.3s;
+    cursor: pointer;
+}
+.botoesmenu:hover{
+    transform: scale(1.05);
+    border: 5px solid rgb(255, 94, 0);
+}
+#voltar:hover{
+    transform: scale(1.1);
+}
+#tema:hover{
+    transform: scale(1.1);
+}
+.botoesmenu.tema-escuro:hover {
+    color: rgb(20, 20, 20);
+    border: 5px solid rgb(255, 94, 0);
+    transform: scale(1.05);
+}
