@@ -18,7 +18,7 @@ O projeto é organizado em um menu central que fornece acesso a diversos módulo
 
 ## Como Usar
 
-Abra o arquivo `index.html` em um navegador web moderno para acessar a aplicação ou acesse a partir desse link hospedado no github pages: 
+Abra o arquivo `index.html` em um navegador web moderno para acessar a aplicação ou acesse a partir desse link hospedado no github pages: https://gabrielhanai.github.io/Aprendizado-WEB/
 
 ## Notas
 
