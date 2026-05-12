@@ -1,7 +1,7 @@
 function adicionartarefa() {
     // recebe valor do input do usuario
     let inputtarefa = document.querySelector("#inputtarefa");
-    let tarefa = inputtarefa.value;
+    let tarefa = inputtarefa.value.trim();
 
     // verifica se tem input
     if (tarefa === ""){
@@ -26,3 +26,24 @@ function apagartarefas(){
         tarefa.remove();
     });
 }
+
+function mudarTema() {
+    let titulo = document.querySelector("#titulo")
+    if (document.body.style.backgroundColor === "white"){
+        document.body.style.backgroundColor = "black"
+        titulo.style.color = "white"
+    }
+    else{
+        document.body.style.backgroundColor = "white"
+        titulo.style.color = "black"
+    }
+}
+// MODELO ALTERADO SEM ID #TITULO PARA COPIAR E COLAR NOS OUTROS CODIGOS
+/* function mudarTema() {
+    if (document.body.style.backgroundColor === "white"){
+        document.body.style.backgroundColor = "black"
+    }
+    else{
+        document.body.style.backgroundColor = "white"
+    }
+} */

@@ -3,7 +3,7 @@ body{
     color: black;
     margin: 0;
     padding: 50px 16px 24px;
-    transition: 0.3nas;
+    transition: 0.3ms;
 }
 u{
     text-decoration-color:greenyellow;

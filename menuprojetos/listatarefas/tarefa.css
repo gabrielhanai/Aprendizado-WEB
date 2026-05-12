@@ -1,5 +1,6 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
 }
 li{
     margin-left: 20px;
@@ -14,6 +15,12 @@ li{
     height: 45px;
     right: 40px;
     top: 20px;
+}
+#tema{
+    position: absolute;
+    top: 20px;
+    right: 160px;
+    height: 45px;
 }
 .botoes{
     transition: 0.3s;
@@ -38,6 +45,8 @@ li{
     width: 750px;
     margin-left: auto;
     margin-right: auto;
+    color: black;
+    transition: 0.3s;
 }
 #lista{
     border: 10px solid greenyellow;
