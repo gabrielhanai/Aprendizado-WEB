@@ -13,6 +13,6 @@ function limpar(){
     display.textContent = 0
 }
 function igual(){
-    
+    resultado = eval(display.textContent)
     display.textContent = resultado
 }
