@@ -2,6 +2,10 @@ html, body{
     margin: 0;
     padding: 0;
 }
+body{
+    color: white;
+    background-color: white;
+}
 #voltar{
     background-color: white;
     border: 5px solid greenyellow;
@@ -10,10 +14,17 @@ html, body{
     height: 45px;
     right: 40px;
     top: 20px;
+    cursor: pointer;
 }
-#barra{
-
-    margin-top: 70px;
+#mudartema{
+    background-color: white;
+    border: 5px solid greenyellow;
+    position: absolute;
+    width: 106px;
+    height: 45px;
+    right: 160px;
+    top: 20px;
+    cursor: pointer;
 }
 #calculadora{
     display: inline-block;
@@ -26,6 +37,7 @@ html, body{
     background-color: rgb(65, 65, 65);
     padding-right: 7px;
     padding-left: 7px;
+    transition: 1s
     ;
 }
 #display{

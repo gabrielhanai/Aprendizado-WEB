@@ -3,7 +3,7 @@ let claroescuro = document.querySelector("#claroescuro");
 function mudarModo() {
     if (claroescuro.textContent === "Modo Escuro") {
     claroescuro.textContent = "Modo Claro";
-    document.body.style.backgroundColor = "black";
+    document.body.style.backgroundColor = "rgb(12, 12, 12)";
     document.body.style.color = "white";
     document.querySelectorAll(".titulos").forEach(titulo => {
         titulo.style.color = "white";

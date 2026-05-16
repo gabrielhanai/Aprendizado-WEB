@@ -40,15 +40,17 @@ function apagartarefas(){
     });
     tarefas = [];
 }
-
+let body = document.querySelector("body")
+let titulo = document.querySelector("#titulo")
+body.style.backgroundColor = "white"
+titulo.style.color = "black"
 function mudarTema() {
-    let titulo = document.querySelector("#titulo")
-    if (document.body.style.backgroundColor === "white"){
-        document.body.style.backgroundColor = "black"
+    if (body.style.backgroundColor === "white"){
+        body.style.backgroundColor = "rgb(17, 17, 17)"
         titulo.style.color = "white"
     }
     else{
-        document.body.style.backgroundColor = "white"
+        body.style.backgroundColor = "white"
         titulo.style.color = "black"
     }
 }
