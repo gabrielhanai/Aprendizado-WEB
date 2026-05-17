@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tituloquestao{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-decoration-thickness: 4px;
+}
+#tituloprincipal{
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
