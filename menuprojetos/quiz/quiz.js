@@ -108,3 +108,31 @@ function enviar(){
     acertos = 0
     erros = 0
 }
+
+let body = document.querySelector("body")
+let tituloquestao = document.querySelectorAll(".tituloquestao")
+let tituloprincipal = document.querySelector("#tituloprincipal")
+let nota = document.querySelector("#nota")
+body.style.backgroundColor = "white"
+function mudartema(){
+    if (body.style.backgroundColor === "white"){
+        body.style.backgroundColor = "rgb(25, 25, 25)"
+        body.style.color = "white"
+        tituloquestao.forEach(titulo => {
+            titulo.style.color = "white"
+        });
+        tituloprincipal.style.color = "white"
+        nota.style.backgroundColor = "rgb(25, 25, 25)"
+        nota.style.color = "white"
+    }
+    else{
+        body.style.backgroundColor = "white"
+        body.style.color = "black"
+        tituloquestao.forEach(titulo => {
+            titulo.style.color = "black"
+        });
+        tituloprincipal.style.color = "black"
+        nota.style.backgroundColor = "white"
+        nota.style.color = "black"
+    }
+}
