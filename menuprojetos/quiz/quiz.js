@@ -93,7 +93,7 @@ function enviar(){
     resultado.textContent = `Você acertou ${acertos} e errou ${erros} questões`
     document.getElementById("nota").appendChild(resultado)
 
-    let gabarito = document.createElement("table")   // A B B C C B B B B C
+    let gabarito = document.createElement("table")   // A B B C C B B B B C GABARITO CORRETO
 
     let botaoenviar = document.querySelector("#enviar")
     botaoenviar.remove()
