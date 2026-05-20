@@ -81,3 +81,29 @@ a {
         background-color: hsl(0, 0%, 100%);
     }
 }
+#nota{
+    background-color: white;
+    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px; 
+    margin-left: 25px;
+    font-weight: bold;
+}
+#tentarnovamente{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#tentarnovamente button {
+    border: solid 5px greenyellow;
+    cursor: pointer;
+    width: 200px;
+    height: 75px;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: pulsar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
