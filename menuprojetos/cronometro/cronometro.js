@@ -1,0 +1,6 @@
+function iniciar(){
+
+}
+function parar(){
+
+}
