@@ -19,13 +19,23 @@ button{
 #voltar{
     background-color: white;
     border: 5px solid greenyellow;
-    position: relative;
+    position: absolute;
     width: 107px;
     height: 45px;
     left: 1755px;
-    margin-top: 20px;
+    top: 25px;
     margin-bottom: 30px;
     margin-left: 20px;
+}
+#mudartema{
+    background-color: white;
+    border: 5px solid greenyellow;
+    position: absolute;
+    width: 107px;
+    height: 45px;
+    left: 1620px;
+    margin-left: 20px;
+    top: 25px;
 }
 #iniciar, #parar{
     width: 200px;
