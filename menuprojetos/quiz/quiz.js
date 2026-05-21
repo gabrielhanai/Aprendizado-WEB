@@ -90,7 +90,7 @@ function enviar(){
     console.log(erros)
 
     let resultado = document.createElement("p")
-    resultado.textContent = `Você acertou ${acertos} e errou ${erros} questões`
+    resultado.innerHTML = `Você acertou <span id = "corAcerto">${acertos}</span> e errou <span id = "corErro">${erros}</span>`
     document.getElementById("nota").appendChild(resultado)
 
     let gabarito = document.createElement("table")   // A B B C C B B B B C GABARITO CORRETO
