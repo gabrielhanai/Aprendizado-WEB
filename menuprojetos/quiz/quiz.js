@@ -94,6 +94,51 @@ function enviar(){
     document.getElementById("nota").appendChild(resultado)
 
     let gabarito = document.createElement("table")   // A B B C C B B B B C GABARITO CORRETO
+    gabarito.innerHTML = `<table id = "gabarito">
+        <th>Questão</th>
+        <th>Resposta</th>
+        <tr>
+            <td>1</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>C</td>
+        </tr>
+    </table>`
+    document.getElementById("gabarito").appendChild(gabarito)
 
     let botaoenviar = document.querySelector("#enviar")
     botaoenviar.remove()

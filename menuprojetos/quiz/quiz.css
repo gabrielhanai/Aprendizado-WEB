@@ -25,6 +25,7 @@ a {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 75px;
 }
 @keyframes crescer{
     0%{
@@ -122,4 +123,20 @@ a {
 }
 #corErro{
     color: red;
+}
+#gabarito{
+    width: 150px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+#gabarito table {
+    border: solid 5px greenyellow;
+}
+td{
+    text-align: center;
+    border: solid 1px black;
+}
+th{
+    border: solid 2px black;
 }
