@@ -37,7 +37,7 @@ button{
     margin-left: 20px;
     top: 25px;
 }
-#iniciar, #parar{
+#iniciar, #zerar{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -53,13 +53,19 @@ button{
     background-color: hsl(120, 100%, 20%);
     color:hsl(120, 100%, 50%)
 }
-#parar{
+#zerar{
     background-color: hsl(0, 0%, 40%);
     color: hsl(0, 0%, 70%);
 }
 #iniciar:hover{
-    background-color: hsl(120, 100%, 30%)
+    background-color: hsl(120, 100%, 25%)
 }
-#parar:hover{
-    background-color: hsl(0, 0%, 50%)
+#zerar:hover{
+    background-color: hsl(0, 0%, 45%)
+}
+#iniciar:active{
+    background-color: hsl(120, 100%, 30%);
+}
+#zerar:active{
+    background-color: hsl(0, 0%, 50%);
 }

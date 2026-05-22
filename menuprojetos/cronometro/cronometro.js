@@ -9,10 +9,17 @@ function mudartema(){
         body.style.color = "black"
     }
 }
-
+let display = document.querySelector("#display")
+let botiniciar = document.querySelector("#iniciar")
+let botzerar = document.querySelector("#zerar")
 function iniciar(){
-
+    if (botiniciar.textContent === "Iniciar"){
+        botiniciar.textContent = "Parar"
+    }
+    else{
+        botiniciar.textContent = "Iniciar"
+    }
 }
-function parar(){
-
+function zerar(){
+    display.textContent = "00:00,00"
 }
