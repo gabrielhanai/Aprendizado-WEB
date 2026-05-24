@@ -1,0 +1,19 @@
+button{
+    cursor: pointer;
+}
+#voltar, #mudartema{
+    background-color: white;
+    color: black;
+    border: solid greenyellow 5px;
+    height: 45px;
+    top: 20px;
+    position: absolute;
+    width: 105px;
+    right: 180px;
+}
+#voltar{
+    position: absolute;
+    right: 48px;
+    top: 20px;
+    width: 105px;
+}
