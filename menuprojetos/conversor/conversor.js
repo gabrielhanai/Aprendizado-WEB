@@ -1,11 +1,9 @@
-let body = document.querySelector("body")
-body.style.backgroundColor = "white"
 function mudartema(){
-    if (body.style.backgroundColor === "white"){
-        body.style.backgroundColor = "rgb(25, 25, 25)"
-        body.style.color = "white"
-    }
-    else{
-        body.style.backgroundColor = "white"
-    }
+    let body = document.querySelector("body")
+    let select = document.querySelectorAll("select")
+    body.classList.toggle("escuro")
+    select.forEach(input => {
+        input.classList.toggle("escuro")
+    });
+    // OBS UM JEITO MT BOM PRA FAZER MUDANCA DE TEMAS É USANDO .TOGGLE E INTEGRANDO COM O CSS
 }
