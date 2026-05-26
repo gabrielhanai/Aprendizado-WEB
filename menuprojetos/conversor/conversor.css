@@ -28,7 +28,8 @@ body.escuro{
 }
 select{
     cursor: pointer;
-    width: 150px;
+    width: 100px;
+    height: 80px;
     background-color: white;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -46,22 +47,37 @@ select.escuro{
 }
 #inputs{
     display: flex;
+    flex-direction: column;
+    gap: 50px;
     position: absolute;
-    left: 750px;
-    top: 600px;
+    left: 1075px;
+    top: 350px;
 }
 #displayfull{
     display: flex;
+    flex-direction: column;
+    gap: 50px;
     gap: 40px;
     position: absolute;
     left: 770px;
-    top: 500px;
+    top: 350px;
 }
 #input1, #input2{
     height: 20px;
     text-align: center;
-    width: 150px;
-    border: none;
-    font-size: 40px;
+    width: 300px;
+    font-size: 35px;
     height: 80px;
+    border-radius: 20px;
+}
+#converter{
+    border: solid black 2px;
+    background-color: white;
+    position: absolute;
+    left: 770px;
+    top: 590px;
+    width: 425px;
+    height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
 }
