@@ -4,10 +4,16 @@ let input2 = document.querySelector("#input2")
 function mudartema(){
     let body = document.querySelector("body")
     let select = document.querySelectorAll("select")
+    let input1 = document.querySelector("#input1")
+    let input2 = document.querySelector("#input2")
+    let converter = document.querySelector("#converter")
     body.classList.toggle("escuro")
     select.forEach(input => {
         input.classList.toggle("escuro")
     });
+    input1.classList.toggle("escuro")
+    input2.classList.toggle("escuro")
+    converter.classList.toggle("escuro")
     // OBS UM JEITO MT BOM PRA FAZER MUDANCA DE TEMAS É USANDO .TOGGLE E INTEGRANDO COM O CSS
 }
 function converter(){

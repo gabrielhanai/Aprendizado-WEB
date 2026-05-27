@@ -21,6 +21,7 @@ body{
     background-color: white;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.3s;
 }
 body.escuro{
     background-color: hsl(0, 0%, 10%);
@@ -39,6 +40,11 @@ select{
     margin-left: 20px;
     margin-right: 20px;
     font-size: 15px;
+    transition: 0.3s;
+}
+select:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 select.escuro{
     background-color: hsl(0, 0%, 25%);
@@ -69,6 +75,12 @@ select.escuro{
     font-size: 35px;
     height: 80px;
     border-radius: 20px;
+    transition: 0.3s;
+    border: solid 2px black;
+}
+#input1.escuro, #input2.escuro{
+    background-color: hsl(0, 0%, 30%);
+    border: 2px solid hsl(0, 0%, 20%);
 }
 #converter{
     border: solid black 2px;
@@ -80,4 +92,14 @@ select.escuro{
     height: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
+    transition: 0.3s;
+}
+#converter:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+#converter.escuro{
+    background-color: hsl(0, 0%, 25%);
+    color: white;
+    border: 3px solid hsl(0, 0%, 15%);
 }

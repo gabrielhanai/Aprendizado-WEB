@@ -5,6 +5,7 @@ html, body{
 body{
     color: white;
     background-color: white;
+    transition: 0.3s;
 }
 #voltar{
     background-color: white;
