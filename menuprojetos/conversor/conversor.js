@@ -26,4 +26,23 @@ function converter(){
         alert("Por favor, insira um valor válido.");
         return;
     }
+    else if (input1value == 0){
+        alert("O valor é zero, por favor insira um valor maior que zero.");
+        return;
+    }
+
+    let moeda1 = document.querySelector("#moeda1").value
+    let moeda2 = document.querySelector("#moeda2").value
+    let url = `https://v6.exchangerate-api.com/v6/b9d7b96d77f8969ec6ddb9fa/latest/${moeda1}`
+    fetch(url)
+    .then(response => response.json())
+    .then(data => {
+        let taxa = data.conversion_rates[moeda2]
+        let resultado = input1value * taxa
+        input2.value = resultado.toFixed(2)
+    })
+    .catch(error => {
+        console.error("Ocorreu um erro:", error);
+        alert("Ocorreu um erro ao converter as moedas. Por favor, tente novamente mais tarde.");
+    });
 }

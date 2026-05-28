@@ -81,6 +81,7 @@ select.escuro{
 #input1.escuro, #input2.escuro{
     background-color: hsl(0, 0%, 30%);
     border: 2px solid hsl(0, 0%, 20%);
+    color: greenyellow;
 }
 #converter{
     border: solid black 2px;
