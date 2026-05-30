@@ -42,12 +42,12 @@ function iniciar(){
     rodando = true
     if (botiniciar.textContent === "Iniciar"){
         botiniciar.textContent = "Parar"
-        setInterval(contar, 10)
+        intervalo = setInterval(contar, 10)
     }
     else{
         rodando = false
         botiniciar.textContent = "Iniciar"
-        parar()
+        clearInterval(intervalo);
     }
 }
 function zerar(){
