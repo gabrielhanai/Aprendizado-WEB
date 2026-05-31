@@ -26,6 +26,10 @@ button{
     margin-top: 20px;
     font-size: 20px;
     transition: 0.4s;
+    max-width: 900px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 .titulos{
@@ -33,6 +37,7 @@ button{
     margin-top: 30px;
     font-size: 30px ;
     transition: 0.4s;
+    max-width: 900px;
 }
 #tituloprincipal{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -69,11 +74,13 @@ button{
 
     .titulos{
         font-size: 24px;
+        max-width: 100%;
     }
 
     .texto{
         font-size: 18px;
         line-height: 1.5;
+        max-width: 100%;
     }
 
     #claroescuro{
@@ -98,6 +105,27 @@ button{
     #tituloprincipal{
         font-size: 30px;
     }
+    
+    .titulos{
+        font-size: 20px;
+        max-width: 100%;
+    }
+    
+    .texto{
+        font-size: 16px;
+        max-width: 100%;
+        line-height: 1.4;
+    }
+    
+    #claroescuro, #menu{
+        position: static;
+        display: block;
+        margin: 5px auto;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+}
 
     .titulos{
         font-size: 21px;
@@ -106,4 +134,3 @@ button{
     .texto{
         font-size: 16px;
     }
-}

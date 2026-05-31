@@ -76,3 +76,50 @@ button{
 #zerar:active{
     background-color: hsl(0, 0%, 50%);
 }
+@media(max-width: 450px){
+    #display{
+        width: 350px;
+        height: 120px;
+        font-size: 60px;
+        text-align: center;
+        display: flex;
+        margin: 0;
+        position: absolute;
+        left: 20px;
+        top: 260px;
+    }
+    #iniciar, #zerar{
+        width: 125px;
+        height: 125px;
+        margin-left: 100px;
+        top: 360px;
+    }
+    #iniciar{
+        position: absolute;
+        right: 120px;
+    }
+    #zerar{
+        position: absolute;
+        left: 120px;
+    }
+    #voltar{
+    background-color: white;
+    border: 5px solid greenyellow;
+    position: absolute;
+    width: 107px;
+    height: 45px;
+    left: 240px;
+    top: 25px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+    #mudartema{
+        background-color: white;
+        border: 5px solid greenyellow;
+        position: absolute;
+        width: 107px;
+        height: 45px;
+        left: 110px;
+        top: 25px;
+    }
+}

@@ -70,3 +70,10 @@ body{
     transform: scale(1.1);
     transition: 0.3s;
 }
+@media(max-width: 450px){
+    #calculadora{
+        position: absolute;
+        left: 37px;
+        top: 140px;
+    }
+}

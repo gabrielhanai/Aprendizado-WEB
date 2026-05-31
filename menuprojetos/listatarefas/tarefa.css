@@ -89,3 +89,42 @@ li{
     width: 71px;
     left: 1207px;
 }
+@media (max-width: 450px) {
+    #titulo{
+        margin-top: 80px;
+        width: 350px;
+        position: absolute;
+        left: 7px;
+    }
+    #lista{
+        margin-left: 2px;
+        width: 369px;
+        position: absolute;
+        top: 135px;
+        left: 5px;
+        height: 600px;
+    }
+    #inputtarefa{
+        position: absolute;
+        top: 745px;
+        margin-left: 0px;
+        left: 7px;
+        width: 235px;
+        height: 40px;
+        font-size: 20px;
+    }
+    #reset{
+        position: absolute;
+        top: 742px;
+        border: 10px solid greenyellow;
+        height: 65px;
+        width: 62px;
+        left: 255px;
+    }
+    #add{
+        width: 62px;
+        height: 65px;
+        left: 315px;
+        top: 742px;
+    }
+}

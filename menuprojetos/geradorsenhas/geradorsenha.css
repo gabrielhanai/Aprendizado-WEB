@@ -81,3 +81,34 @@ button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
+@media(max-width:450px){
+    #titulo{
+        position: absolute;
+        margin-right: 0;
+        margin-left: 0;
+        width: 387px;
+        font-size: 40px;
+        top: 65px;
+    }
+    #display{
+        width: 360px;
+        font-size: 45px;
+        padding-top: 20px;
+    }
+    #gerar{
+    position: absolute;
+    margin-right: 0;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    width: 390px;
+    top: 340px;
+    background-color: rgb(33, 103, 255);
+    border: 5px solid greenyellow;
+    color: white;
+    height: 100px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+}
