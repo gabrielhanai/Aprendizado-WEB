@@ -89,7 +89,7 @@ li{
     width: 71px;
     left: 1207px;
 }
-@media (max-width: 450px) {
+@media (max-width: 750px) {
     #titulo{
         margin-top: 80px;
         width: 350px;

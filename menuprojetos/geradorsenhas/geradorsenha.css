@@ -81,7 +81,7 @@ button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
-@media(max-width:450px){
+@media(max-width:750px){
     #titulo{
         position: absolute;
         margin-right: 0;

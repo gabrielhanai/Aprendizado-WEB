@@ -104,7 +104,7 @@ select.escuro{
     color: white;
     border: 3px solid hsl(0, 0%, 15%);
 }
-@media(max-width: 450px){
+@media(max-width: 750px){
     #displayfull{
     display: flex;
     flex-direction: column;
