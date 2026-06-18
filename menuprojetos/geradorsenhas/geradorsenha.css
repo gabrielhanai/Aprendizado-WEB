@@ -171,23 +171,3 @@ button{
 @view-transition{
     navigation: auto;
 }
-::view-transition-group(root){
-    animation-duration: 0.5s;
-}
-::view-transition-new(root){
-    animation-name: entrando;
-}
-::view-transition-old(root){
-    animation-name: saindo;
-}
-
-@keyframes entrando{
-    from{
-        transform: translateX(100%);
-    }
-}
-@keyframes saindo{
-    to{
-        transform: translateX(-100%);
-    }
-}
