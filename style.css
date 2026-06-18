@@ -127,10 +127,17 @@ button{
     }
 }
 
-    .titulos{
-        font-size: 21px;
-    }
+.titulos{
+    font-size: 21px;
+}
 
-    .texto{
-        font-size: 16px;
-    }
+.texto{
+    font-size: 16px;
+}
+
+@view-transition{
+    navigation: auto;
+}
+::view-transition-group(root){
+    animation-duration: 0.5s;
+}
