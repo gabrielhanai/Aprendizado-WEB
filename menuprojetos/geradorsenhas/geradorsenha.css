@@ -168,3 +168,6 @@ button{
         border-radius: 18px;
     }
 }
+@view-transition{
+    navigation: auto;
+}

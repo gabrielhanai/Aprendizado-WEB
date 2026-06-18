@@ -143,3 +143,6 @@ td{
 th{
     border: solid 2px black;
 }
+@view-transition{
+    navigation: auto;
+}

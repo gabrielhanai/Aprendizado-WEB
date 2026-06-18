@@ -141,3 +141,9 @@ button{
 ::view-transition-group(root){
     animation-duration: 0.5s;
 }
+::view-transition-new(root){
+    animation-name: entrando;
+}
+::view-transition-old(root){
+    animation-name: saindo;
+}

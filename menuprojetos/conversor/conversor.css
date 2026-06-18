@@ -231,5 +231,7 @@ select.escuro{
         margin: 0 15px;
     }
 }
-
+@view-transition{
+    navigation: auto;
+}
 

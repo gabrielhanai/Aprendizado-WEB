@@ -124,3 +124,6 @@ button{
         top: 25px;
     }
 }
+@view-transition{
+    navigation: auto;
+}

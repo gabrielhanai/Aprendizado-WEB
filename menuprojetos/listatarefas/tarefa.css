@@ -129,3 +129,6 @@ li{
         top: 555px;
     }
 }
+@view-transition{
+    navigation: auto;
+}

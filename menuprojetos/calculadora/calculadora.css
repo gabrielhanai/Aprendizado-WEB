@@ -77,3 +77,6 @@ body{
         top: 140px;
     }
 }
+@view-transition{
+    navigation: auto;
+}
